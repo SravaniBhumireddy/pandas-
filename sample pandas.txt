@@ -1,0 +1,7 @@
+import pandas as pd
+import numpy as np
+marks = [80, 90, 100, 60]
+labels = ["Maths", "Science", "Social", "Lang"]
+ser = pd.Series(marks, labels)
+ser
+type(ser)
